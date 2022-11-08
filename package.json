@@ -1,0 +1,41 @@
+{
+  "name": "sky-apartments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev --dev",
+    "build": "gulp build --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.49.7",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.63.0",
+    "webpack-stream": "^7.0.0",
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "choices.js": "^10.1.0",
+    "js-datepicker": "^5.18.0",
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.0.6"
+  },
+  "description": ""
+}

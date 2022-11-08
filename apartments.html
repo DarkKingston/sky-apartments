@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="dist/images/ico.png">
+    <link rel="stylesheet" href="dist/css/styles.css?v=3">
+    <title>Sky Apartments - Апартаменты</title>
+</head>
+
+<body>
+    <header class="header header_index">
+        <div class="container">
+            <div class="header__content">
+                <a href="./" class="logo header__logo">
+                    <img src="dist/images/logo.svg" alt="" class="logo__img">
+                </a>
+                <div class="name header__name">Sky Apartments</div>
+                <nav class="menu header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Бронирование</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Выбрать апартаменты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">О нас</a>
+                        </li>
+                    </ul>
+                    <button class="menu__toggle">
+						<span class="menu__lines"></span>
+					</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="catalog">
+            <div class="container">
+                <div class="booking catalog__booking">
+                    <div class="booking__list">
+                        <div class="booking__item">
+                            <div class="booking__name">Прибытие</div>
+                            <input type="text" class="input input_date booking__input" placeholder="Выберите дату">
+                        </div>
+                        <div class="booking__item booking__item_leave">
+                            <div class="booking__name">Выезд</div>
+                            <input type="text" class="input input_date booking__input" placeholder="Выберите дату">
+                        </div>
+                        <div class="booking__item">
+                            <div class="booking__name">Гостей</div>
+                            <div class="booking__select">
+                                <select class="booking__select-input" name="" id="">
+                                    <option value="">Количество</option>
+                                    <option value="1">1 гость</option>
+                                    <option value="2">2 гостя</option>
+                                    <option value="3">3 гостя</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="booking__item booking__item_price">
+                            <div class="booking__name">Цена</div>
+                            <div class="booking__select">
+                                <select class="booking__select-input" name="" id="">
+                                    <option value="18000">От 18 000</option>
+                                    <option value="36000">От 36 000</option>
+                                    <option value="54000">От 54 000</option>
+                                    <option value="54000">От 72 000</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="booking__submit"></button>
+                </div>
+                <div class="catalog__sorts">
+                    <div class="features catalog__features">
+                        <div class="features__list">
+                            <button class="btn btn_transparent features__btn">Кондиционер</button>
+                            <button class="btn btn_transparent features__btn">Рабочая зона</button>
+                            <button class="btn btn_transparent features__btn">Кухня</button>
+                            <button class="btn btn_transparent features__btn">Стиральная машина</button>
+                            <button class="btn btn_transparent features__btn">Джакузи</button>
+                            <button class="btn btn_transparent features__btn">Фен</button>
+                        </div>
+                    </div>
+                    <button class="filter-btn catalog__filter-btn">Фильтры <span class="filter-btn__num">3</span></button>
+                </div>
+            </div>
+
+            <section class="apartments catalog__apartments">
+                <div class="container">
+                    <div class="apartments__content">
+                        <div class="apartments__header">
+                            <div class="sort apartments__sort">
+                                <button class="sort__btn">По популярности</button>
+                            </div>
+                            <div class="sort apartments__sort">
+                                <button class="sort__btn">По стоимости</button>
+                            </div>
+                        </div>
+                        <div class="apartments__list">
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/1.jpg" alt="Sky Sex Room" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Sex Room</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                            </div>
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/2.jpg" alt="Sky Double Suite" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Double Suite</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                                <div class="apartment__type">Лучшая Цена</div>
+                            </div>
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/3.jpg" alt="Sky Diamond SPB" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Diamond SPB</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                            </div>
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/4.jpg" alt="Sky Diamond" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Diamond</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                            </div>
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/5.jpg" alt="Sky Weekend" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Weekend</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                            </div>
+                            <div class="apartment apartments__item">
+                                <img src="dist/images/apartments/6.jpg" alt="Sky Crown" class="apartment__img">
+                                <div class="apartment__main">
+                                    <h3 class="title3 apartment__title">Sky Crown</h3>
+                                    <div class="apartment__features">
+                                        <div class="apartment__feature">2 гостя</div>
+                                        <div class="apartment__feature">1 спальня</div>
+                                        <div class="apartment__feature">1 санузел</div>
+                                        <div class="apartment__feature">1 кровать</div>
+                                        <div class="apartment__feature">50 м<sup>2</sup> комната</div>
+                                        <div class="apartment__feature">44 этаж</div>
+                                    </div>
+                                    <a href="#" class="move-link apartment__link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer main__footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="title4 footer__title">Sky Apartments</div>
+                <div class="footer__main">
+                    <div class="footer__column">
+                        <div class="footer__menu">
+                            <div class="footer__text footer__name">Сервисы</div>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Забронировать апартамент</a>    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__text footer__name">Гостям</div>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Специальные предложения</a>    
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Заказ трансфера</a>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__menu">
+                            <div class="footer__text footer__name">А также</div>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Апартаменты на даты</a>    
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Способы оплаты</a>    
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Публичная оферта</a>    
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Оставить отзыв</a>    
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__text footer__menu-link">Контакты</a>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__text footer__address">
+                            <strong>Фактический и юридический адрес:</strong> <br>
+                            123112, город Москва, Пресненская набережная 12, офис 499,
+                            Башня Федерация Запад
+                        </div>
+                        <div class="footer__contact-item">
+                            <a href="mailto:booking@skyap.city" class="footer__text">booking@skyap.city</a>
+                        </div>
+                        <div class="footer__contact-item">
+                            <a href="tel:+74952553934" class="footer__text">+7 (495) 255-39-34</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">© 2021 Скай Апартаменты</div>
+            </div>
+        </div>
+    </footer>
+    <script src="dist/js/common.js?v=3"></script>
+</body>
+
+</html>
